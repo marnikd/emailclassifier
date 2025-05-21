@@ -7,11 +7,10 @@ De classificatie helpt bij het automatisch doorsturen van e-mails naar de juiste
 
 ## Functionaliteit
 
-- ✅ Classificeert e-mails op basis van titel en omschrijving
-- 🔒 Valideert input met Pydantic (geen lege strings toegestaan)
+- ✅ Classificeert e-mails op basis van titel
+- 🔒 Valideert input met Pydantic 
 - 📦 Terugkerende JSON-response met consistente structuur
 - 🛑 Robuuste foutafhandeling: ook bij validatiefouten een geldige JSON-response
-- 🔄 EmailID wordt teruggegeven (max. 10 karakters) voor tracering
 
 ---
 
