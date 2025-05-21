@@ -4,12 +4,12 @@ FROM python:3.11
 # working directory
 WORKDIR /app
 
-# copy requirements if you have them
+# copy requirements
 COPY requirements.txt .
 
 RUN pip install --no-cache-dir -r requirements.txt
 
-# copy your wheel file into the container
+# copy wheel file
 COPY pipple_template-1.0-py3-none-any.whl .
 
 # install the wheel file
